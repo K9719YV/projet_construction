@@ -63,27 +63,24 @@ function Check($var)
 <body>
 
 <!--Menu de navigation-->
-<nav class="navbar navbar-expand-sm navbar-dark navbar-fixed">
-    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
-            aria-controls="collapsibleNavId"
-            aria-expanded="false" aria-label="Toggle navigation"></button>
+<nav class="navbar navbar-expand-sm fixed-top">
+    <a class="navbar-brand" href="index.php">ISO-BAT</a>
+    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">+</button>
     <div class="collapse navbar-collapse" id="collapsibleNavId">
-        <h1><span><i class="fa fa-building"></i></span> Bat-Help <span><i class="fa fa-building"></i></span></h1>
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item">
-                <a class="button1" id="inscription" href="inscription.php"><span><i class="fa fa-edit"></i></span>Inscription</a>
+                <a class="nav-link" href="inscription.php">Inscription</a>
             </li>
-            <li class="nav-item">
-                <a class="button2" id="connection" href="connection.php"><span><i class="fa fa-book"></i></span>Connection</a>
+            <li class="nav-item active">
+                <a class="nav-link" href="connection.php">Connexion<span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-                <a class="button3" id="Actions" href="action.php"><span><i class="fa fa-cart-arrow-down"></i></span>Actions</a>
+            <li class="nav-item active">
+                <a class="nav-link" href="action.php">Actions<span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-                <a class="button5" id="dashboard" href="dashboard.php"><span><i class="fa fa-check-square"></i></span>Recapitulatifs</a>
+            <li class="nav-item active">
+                <a class="nav-link" href="dashboard.php">Dashboard<span class="sr-only">(current)</span></a>
             </li>
         </ul>
-        <a href="../index.php" class="button4"><span><i class="fa fa-home"></i></span>Accueil</a>
     </div>
 </nav>
 

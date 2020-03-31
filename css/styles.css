@@ -5,10 +5,7 @@
 }
 
 /*  Page Accueil et g�n�ral */
-body
-{
-    width: auto;
-}
+
 a
 {
     text-decoration: none;
@@ -21,7 +18,10 @@ a
     background: -webkit-linear-gradient(left,#FFA958,#733104,#FFA958);
     background: -moz-linear-gradient(left,#FFA958,#733104,#FFA958);
     background: -o-linear-gradient(left,#FFA958,#733104,#FFA958);
-    width:100%;
+}
+
+.nav-link:hover{
+    color: rgb(202, 195, 195) !important;
 }
 
 #my-carousel{
