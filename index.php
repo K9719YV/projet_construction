@@ -14,13 +14,12 @@
     <!-- Animate CSS -->
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/styles.css">
     <title>IsoBat</title>
 </head>
-<body style="background-image:url('img/img12.jpg');background-size: cover;" class="animated tada">
+<body>
 
 <!--Menu de navigation-->
-<nav class="navbar navbar-expand-sm navbar-dark navbar-fixed">
+<nav class="navbar navbar-expand-sm navbar-dark fixed-top">
     <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
             aria-controls="collapsibleNavId"
             aria-expanded="false" aria-label="Toggle navigation"></button>
@@ -43,54 +42,34 @@
         <a href="index.php" class="button4"><span><i class="fa fa-home"></i></span>Accueil</a>
     </div>
 </nav>
-
-
 <!-- Carousel -->
 <div id="my-carousel" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li class="active" data-target="#my-carousel" data-slide-to="0" aria-current="location"></li>
-        <li data-target="#my-carousel" data-slide-to="1"></li>
-        <li data-target="#my-carousel" data-slide-to="2"></li>
-        <li data-target="#my-carousel" data-slide-to="3"></li>
-    </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="d-block w-100" src="img/img10.jpg" alt="">
-
-            <div class="carousel-caption d-none d-md-block">
-                <h3 style="background: rgba(0,0,0,.6);">Vous cherchez un terrain en construction ou non pour y vivre ?</h3>
+            <div style="background: url('img/img10.jpg') center no-repeat;background-size:cover;height:100%;"></div>
+            <div class="text-content">
+                <h3>Vous cherchez un terrain en construction ou non pour y vivre ?</h3>
             </div>
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="img/search4.jpg" alt="">
-
-            <div class="carousel-caption d-none d-md-block">
-                <h3 style="background: rgba(0,0,0,.6);">Vous ne savez pas ou allez ?</h3>
+            <div style="background: url('img/search4.jpg') center no-repeat;background-size:cover;height:100%"></div>
+            <div class="text-content">
+                <h3>Vous ne savez pas ou allez ?</h3>
             </div>
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="img/img16.jpg" alt="">
-
-            <div class="carousel-caption d-none d-md-block">
-                <h3 style="color: #FFA958;background: rgba(0,0,0,.6);">Vous avez des projets de renovation ?</h3>
+            <div style="background: url('img/img16.jpg') center no-repeat;background-size:cover;height:100%"></div>
+            <div class="text-content">
+                <h3>Vous avez des projets de renovation ?</h3>
             </div>
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="img/img15.jpg" alt="">
-
-            <div class="carousel-caption d-none d-md-block">
-                <h3 style="color: #FFA958;background: rgba(0,0,0,.6);">Dans ce cas, vous avez trouvez ce qu'il vous faut !</h3>
+            <div style="background: url('img/img15.jpg') center no-repeat;background-size:cover;height:100%"></div>
+            <div class="text-content">
+                <h3>Dans ce cas, vous avez trouvez ce qu'il vous faut !</h3>
             </div>
         </div>
     </div>
-    <a class="carousel-control-prev" href="#my-carousel" data-slide="prev" role="button">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#my-carousel" data-slide="next" role="button">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
 </div>
 
 
