@@ -89,22 +89,19 @@ $tab = $request->fetch();
                     <div class="input-group-prepend">
                         <span class="input-group-text" id="commune"><i class="fa fa-user"></i></span>
                     </div>
-                    <input class="form-control" type="text" name="commune" placeholder="Dans quelle commune voulez-vous construire ? ..."
-                           aria-label="Recipient'scommune" aria-describedby="commune">
+                    <input class="form-control" type="text" name="commune" placeholder="Dans quelle commune voulez-vous construire ? ..." aria-label="Recipient'scommune" aria-describedby="commune">
                 </div>
                 <div class="input-group mt-3">
                     <div class="input-group-prepend">
                         <span class="input-group-text" id="ville"><i class="fa fa-user-plus"></i></span>
                     </div>
-                    <input class="form-control" type="text" name="ville" placeholder="Precisez la ville..."
-                           aria-label="Recipient'sville" aria-describedby="ville">
+                    <input class="form-control" type="text" name="ville" placeholder="Precisez la ville..." aria-label="Recipient'sville" aria-describedby="ville">
                 </div>
                 <div class="input-group mt-3">
                     <div class="input-group-prepend">
                         <span class="input-group-text" id="plan"><i class="fa fa-home"></i></span>
                     </div>
-                    <input class="form-control" type="text" name="plan" placeholder="Voulez-vous des plans architectes ? (Oui/Non)..."
-                           aria-label="Recipient'sresidence" aria-describedby="plan">
+                    <input class="form-control" type="text" name="plan" placeholder="Voulez-vous des plans architectes ? (Oui/Non)..." aria-label="Recipient'sresidence" aria-describedby="plan">
                 </div>
                 <div class="input-group mt-3">
                     <label for="message" style="color: #FFF">Si avez besoin de materiels,listez les ici ! </label>
@@ -114,8 +111,7 @@ $tab = $request->fetch();
                     <div class="input-group-prepend">
                         <span class="input-group-text" id="renovation"><i class="fa fa-home"></i></span>
                     </div>
-                    <input class="form-control" type="text" name="renovation" placeholder="Voulez-vous renover votre maison ? (Oui/Non)..."
-                           aria-label="Recipient'srenovation" aria-describedby="renonation">
+                    <input class="form-control" type="text" name="renovation" placeholder="Voulez-vous renover votre maison ? (Oui/Non)..." aria-label="Recipient'srenovation" aria-describedby="renonation">
                 </div>
                 <input type="submit" class="btn btn-success float-center submit_btn btn-block btn-lg" value="Faire sa demande...">
             </form>
@@ -174,8 +170,8 @@ $tab = $request->fetch();
 <?php
 }
 else
-{   echo '<div class="col-md-6">';
-    echo '<h1 style="text-align: center;font-size: 80px;">ERROR <span style="color: red">404</span></h1>';
+{   
+    echo '<div class="col-md-6">';
     echo '<h3 style="text-align: center;">Vous ne pouvez effectuer aucune action tant que vous n\'etes pas inscrit,veuillez vous <a href="inscription.php">inscrire</a>.</h3>';
     echo '<h3 style="text-align: center">Si vous avez deja un compte <a href="connection.php">connectez</a> vous.</h3>';
     echo '</div>';

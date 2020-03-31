@@ -69,39 +69,34 @@
     </div>
 </div>
 
-
     <!--Services -->
-
-<h2 style="background: rgba(0,0,0,.5);"><span><i class="fa fa-arrow-circle-down"></i>Nos Services<i class="fa fa-arrow-circle-down"></i></span></h2>
-
-<div class="container" id="container">
-        <div class="row">
-            <div class="col-md-4">
-<!--                <button class="btn btn-success">Plus d'infos</button>-->
-                <p class="p" id="p1">Localisation des maisons en vente ou en construction</p>
+    <div class="box-main">
+        <div class="container">
+            <h2 class="title">Nos Services</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <p>Localisation des maisons en vente ou en construction</p>
+                </div>
+                <div class="col-md-4">
+                    <p>Solution de renovation</p>
+                </div>
+                <div class="col-md-4">
+                    <p>Nous vous offrons des plans d'architecture faits par des professionnels du domaine!</p>
+                </div>
             </div>
-            <div class="col-md-4">
-                    <p class="p" id="p2">Solution de renovation</p>
-            </div>
-            <div class="col-md-4">
-                <p class="p" id="p3">Nous vous offrons des plans d'architecture faits par des professionnels du domaine!</p>
-            </div>
+            <h4>Pour profiter de nos servives inscrivez-vous inscrire en cliquant sur le boutton inscription en haut de la page</h4>
         </div>
     </div>
 
-    <!-- Aide -->
-    <h4 style="color: #ffffff;;font-size: 30px;font-weight: bold;background: rgba(0,0,0,.5);"><span><i class=" fa fa-arrow-circle-up"></i>Pour profiter de nos servives inscrivez-vous inscrire en cliquant sur le boutton inscription en haut de la page<i
-                class=" fa fa-arrow-circle-up"></i></span></h4>
 <!-- Footer -->
-<footer class="page-footer font-small blue pt-4">
-
-    <div class="container-fluid text-center text-md-left">
+<footer class="footer">
+    <div class="container">
         <div class="row">
-            <div class="col-md-6 mt-md-0 mt-3">
+            <div class="col-md-6">
                 <h5 class="text-uppercase">Bat<small>H</small>elp</h5>
-                <p>Nous vous accompagnerons dans toutes vos demarches !</p></div>
-            <hr class="clearfix w-100 d-md-none pb-3">
-            <div class="col-md-3 mb-md-0 mb-3">
+                <p>Nous vous accompagnerons dans toutes vos demarches !</p>
+            </div>
+            <div class="col-md-3">
                 <h5 class="text-uppercase">Liens</h5>
                 <ul class="list-unstyled">
                     <li>
@@ -115,7 +110,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-md-3 mb-md-0 mb-3">
+            <div class="col-md-3">
                 <h5 class="text-uppercase">Contacts</h5>
                 <ul class="list-unstyled">
                     <li>
@@ -138,7 +133,7 @@
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/typed.js"></script>
-    <script src="js/main.js"></script>
+    <!-- <script src="js/main.js"></script> -->
 </div>
 </body>
 
