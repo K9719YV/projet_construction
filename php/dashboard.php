@@ -30,7 +30,7 @@
     <title>IsoBat</title>
 </head>
 
-<body class="font">
+<body>
 <!--Menu de navigation-->
 <nav class="navbar navbar-expand-sm fixed-top">
     <a class="navbar-brand" href="../index.php">ISO-BAT</a>
@@ -52,80 +52,81 @@
         </ul>
     </div>
 </nav>
-<h1 style="text-align: center">Recapitulatifs</h1>
-<table class="table table-striped">
-    <thead>
-    <tr>
-        <th scope="col">ID</th>
-        <th scope="col">Nom</th>
-        <th scope="col">Prenoms</th>
-        <th scope="col">Residence</th>
-        <th scope="col">Commune de construction</th>
-        <th scope="col">Ville de construction</th>
-        <th scope="col">Plan architectes</th>
-        <th scope="col">Materiels</th>
-        <th scope="col">Renovation</th>
-    </tr>
-    </thead>
-    <tbody>
-    <?php foreach($tab as $keys => $value): ?>
-    <tr>
-        <?php foreach($value as $tab_keys => $tab_value): ?>
-            <?php if($tab_keys == 'id' && $value == 'id') {   ?>
-                <th scope="row"><?= $tab_value ?></th>
-        <?php } else { ?>
-        <td><?= $tab_value ?></td>
-        <?php } ?>
-        <?php endforeach ?>
-    </tr>
-    <?php endforeach ?>
-    </tbody>
-</table>
-
-<!-- Message de remerciement -->
-<h3 style="text-align:center;">Nous vous contacterons dans les brefs delais, Merci pour votre confiance !</h3>
-
-
-<!-- Footer -->
-<footer class="footer">
+<div class="main-box">
     <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <h5 class="text-uppercase">Bat<small>H</small>elp</h5>
-                <p>Nous vous accompagnerons dans toutes vos demarches !</p>
-            </div>
-            <div class="col-md-3">
-                <h5 class="text-uppercase">Liens</h5>
-                <ul class="list-unstyled">
-                    <li>
-                        <a href="#">Inscription</a>
-                    </li>
-                    <li>
-                        <a href="#">Connection</a>
-                    </li>
-                    <li>
-                        <a href="#">Actions</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-3">
-                <h5 class="text-uppercase">Contacts</h5>
-                <ul class="list-unstyled">
-                    <li>
-                        <p>9849849984</p>
-                    </li>
-                    <li>
-                        <p>5894984964</p>
-                    </li>
-                    <li>
-                        <p>98984949</p>
-                    </li>
-                </ul>
+        <h1 class="text-center">Recapitulatifs</h1>
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Nom</th>
+                <th scope="col">Prenoms</th>
+                <th scope="col">Residence</th>
+                <th scope="col">Commune de construction</th>
+                <th scope="col">Ville de construction</th>
+                <th scope="col">Plan architectes</th>
+                <th scope="col">Materiels</th>
+                <th scope="col">Renovation</th>
+            </tr>
+            </thead>
+            <tbody>
+            <?php foreach($tab as $keys => $value): ?>
+            <tr>
+                <?php foreach($value as $tab_keys => $tab_value): ?>
+                    <?php if($tab_keys == 'id' && $value == 'id') {   ?>
+                        <th scope="row"><?= $tab_value ?></th>
+                <?php } else { ?>
+                <td><?= $tab_value ?></td>
+                <?php } ?>
+                <?php endforeach ?>
+            </tr>
+            <?php endforeach ?>
+            </tbody>
+        </table>
+    </div>
+    <h3 class="text-center">Nous vous contacterons dans les brefs delais, Merci pour votre confiance !</h3>
+</div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="text-uppercase">Bat<small>H</small>elp</h5>
+                    <p>Nous vous accompagnerons dans toutes vos demarches !</p>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="text-uppercase">Liens</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#">Inscription</a>
+                        </li>
+                        <li>
+                            <a href="#">Connection</a>
+                        </li>
+                        <li>
+                            <a href="#">Actions</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="text-uppercase">Contacts</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <p>9849849984</p>
+                        </li>
+                        <li>
+                            <p>5894984964</p>
+                        </li>
+                        <li>
+                            <p>98984949</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="footer-copyright text-center py-3">2018 Copyright : isoNaN@2.19</div>
-</footer>
+        <div class="footer-copyright text-center py-3">2018 Copyright : isoNaN@2.19</div>
+    </footer>
     <!-- script js -->
     <script src="../js/jquery.js"></script>
     <script src="../js/bootstrap.min.js"></script>

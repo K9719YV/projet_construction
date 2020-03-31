@@ -70,14 +70,13 @@ $tab = $request->fetch();
         </ul>
     </div>
 </nav>
-<div class="center animated fadeInLeft">
-    <h1 style="background: rgba(255,169,36,.4);font-size: 50px;color:#FFF;font-weight: bold;">Bienvenu(e) <?= $tab['nom'] . "      " . $tab['prenom'] ?></h1>
-</div>
 <!-- Formulaire de renseignement -->
-<div class="corps">
+<div class="box-form-act">
     <div class="container">
-        <div class="col-md-8 centre">
-
+        <div class="card-form">
+            <div class="center animated fadeInLeft">
+                <h1>Bienvenu(e) <?= $tab['nom'] . "      " . $tab['prenom'] ?></h1>
+            </div>
             <form id="form" action="" method="post" class="formulaire animated zoomInUp">
                 <?php
                 if(isset($err))
@@ -105,7 +104,7 @@ $tab = $request->fetch();
                 </div>
                 <div class="input-group mt-3">
                     <label for="message" style="color: #FFF">Si avez besoin de materiels,listez les ici ! </label>
-                    <textarea name="message" id="message" class="form-control" rows="3"></textarea>
+                    <textarea name="message" id="message" class="form-control w-100" rows="3"></textarea>
                 </div>
                 <div class="input-group mt-3">
                     <div class="input-group-prepend">
@@ -113,7 +112,7 @@ $tab = $request->fetch();
                     </div>
                     <input class="form-control" type="text" name="renovation" placeholder="Voulez-vous renover votre maison ? (Oui/Non)..." aria-label="Recipient'srenovation" aria-describedby="renonation">
                 </div>
-                <input type="submit" class="btn btn-success float-center submit_btn btn-block btn-lg" value="Faire sa demande...">
+                <input type="submit" class="btn btn-success float-center submit_btn btn-block btn-lg mt-3" value="Faire sa demande...">
             </form>
         </div>
     </div>

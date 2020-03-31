@@ -84,8 +84,7 @@ a
     cursor: pointer;
 }
 
-.carousel img
-{
+.carousel img{
     height: 100%;
 }
 
@@ -108,23 +107,52 @@ a
     background-size: cover;
 }
 
-.box-form,.box-form-connec{
+.box-form-act{
+    background: url('../img/img8.jpg') center no-repeat;
+    background-size: cover;
+}
+
+.box-form,.box-form-connec, .box-form-act{
     min-height: 100vh;
     position: relative;
 }
-
 
 .box-form h3, .box-form-connec h3{
     color: #FFA958;
 }
 
-.box-form .card-form, .box-form-connec .card-form{
+.box-form-act h1{
+    background: rgba(255,169,36,.4);
+    font-size: 50px;
+    color:#FFF;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.box-form .card-form, .box-form-connec .card-form, .box-form-act .card-form{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 100%;
     padding: 30px;
+}
+
+.main-box{
+    min-height: 100vh;
+    padding: 56px 0 20px;
+    background: url('../img/img7.jpg') center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.main-box h3{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #FFA958;
+    background:rgba(0, 0, 0, 0.575);
 }
 
 
