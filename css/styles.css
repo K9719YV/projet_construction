@@ -1,10 +1,14 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: inherit;
 }
 
 /*  Page Accueil et g�n�ral */
+
+body{
+    box-sizing: border-box;
+}
 
 a
 {
@@ -94,7 +98,34 @@ a
     color: #212529;
 }
 
+.box-form{
+    background: url('../img/img17.jpg') center no-repeat;
+    background-size: cover;
+}
 
+.box-form-connec{
+    background: url('../img/img14.jpg') center no-repeat;
+    background-size: cover;
+}
+
+.box-form,.box-form-connec{
+    min-height: 100vh;
+    position: relative;
+}
+
+
+.box-form h3, .box-form-connec h3{
+    color: #FFA958;
+}
+
+.box-form .card-form, .box-form-connec .card-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    padding: 30px;
+}
 
 
 

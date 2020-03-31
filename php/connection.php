@@ -86,10 +86,10 @@ function Check($var)
 
 <!-- Formulaire de connection-->
 
-<div class="corps">
+<div class="box-form-connec">
     <div class="container">
-        <div class="col-md-6 centre">
-
+        <div class="card-form">
+            <h3 class="text-center">Connexion</h3>
             <form action="" method="post" class="formulaire animated fadeInUp">
                 <?php
                 if(isset($err))
@@ -106,75 +106,71 @@ function Check($var)
                     <div class="input-group-prepend">
                         <span class="input-group-text" id="email"><i class="fa fa-envelope"></i></span>
                     </div>
-                    <input class="form-control" type="email" name="email" placeholder="Ecrivez votre email..."
-                           aria-label="Recipient'semail" aria-describedby="email">
+                    <input class="form-control" type="email" name="email" placeholder="Ecrivez votre email..." aria-label="Recipient'semail" aria-describedby="email">
                 </div>
                 <div class="input-group mt-3">
                     <div class="input-group-prepend">
                         <span class="input-group-text" id="password"><i class="fa fa-unlock-alt"></i></span>
                     </div>
-                    <input class="form-control" type="password" name="password" placeholder="Ecrivez votre password..."
-                           aria-label="Recipient'spassword" aria-describedby="password">
+                    <input class="form-control" type="password" name="password" placeholder="Ecrivez votre password..." aria-label="Recipient'spassword" aria-describedby="password">
                 </div>
                 <div class="input-group mt-3">
                     <div class="input-group-prepend">
                         <span class="input-group-text" id="password2"><i class="fa fa-unlock-alt"></i></span>
                     </div>
-                    <input class="form-control" type="password" name="password2" placeholder="Confirmer le password..."
-                           aria-label="Recipient'spassword2" aria-describedby="password2">
+                    <input class="form-control" type="password" name="password2" placeholder="Confirmer le password..." aria-label="Recipient'spassword2" aria-describedby="password2">
                 </div>
 
-                <button type="submit" class="btn btn-success float-center submit_btn btn-block btn-lg">Se Connecter</button>
+                <button type="submit" class="btn btn-success float-center submit_btn btn-block btn-lg mt-3">Se Connecter</button>
             </form>
         </div>
     </div>
 </div>
 
-<!-- Footer -->
-<footer class="page-footer font-small blue pt-4">
-
-    <div class="container-fluid text-center text-md-left">
-        <div class="row">
-            <div class="col-md-6 mt-md-0 mt-3">
-                <h5 class="text-uppercase">Bat<small>H</small>elp</h5>
-                <p>Nous vous accompagnerons dans toutes vos demarches !</p></div>
-            <hr class="clearfix w-100 d-md-none pb-3">
-            <div class="col-md-3 mb-md-0 mb-3">
-                <h5 class="text-uppercase">Liens</h5>
-                <ul class="list-unstyled">
-                    <li>
-                        <a href="#">Inscription</a>
-                    </li>
-                    <li>
-                        <a href="#">Connection</a>
-                    </li>
-                    <li>
-                        <a href="#">Actions</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-3 mb-md-0 mb-3">
-                <h5 class="text-uppercase">Contacts</h5>
-                <ul class="list-unstyled">
-                    <li>
-                        <p>9849849984</p>
-                    </li>
-                    <li>
-                        <p>5894984964</p>
-                    </li>
-                    <li>
-                        <p>98984949</p>
-                    </li>
-                </ul>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="text-uppercase">Bat<small>H</small>elp</h5>
+                    <p>Nous vous accompagnerons dans toutes vos demarches !</p>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="text-uppercase">Liens</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#">Inscription</a>
+                        </li>
+                        <li>
+                            <a href="#">Connection</a>
+                        </li>
+                        <li>
+                            <a href="#">Actions</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="text-uppercase">Contacts</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <p>9849849984</p>
+                        </li>
+                        <li>
+                            <p>5894984964</p>
+                        </li>
+                        <li>
+                            <p>98984949</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="footer-copyright text-center py-3">2018 Copyright : isoNaN@2.19</div>
+        <div class="footer-copyright text-center py-3">2018 Copyright : isoNaN@2.19</div>
+    </footer>
     <!-- script js -->
     <script src="../js/jquery.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/typed.js"></script>
     <script src="../js/main.js"></script>
-</footer>
 </body>
 </html>

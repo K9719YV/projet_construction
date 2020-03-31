@@ -120,15 +120,14 @@ $tab = $request->fetch();
 </div>
 
 <!-- Footer -->
-<footer class="page-footer font-small blue pt-4">
-
-    <div class="container-fluid text-center text-md-left">
+<footer class="footer">
+    <div class="container">
         <div class="row">
-            <div class="col-md-6 mt-md-0 mt-3">
+            <div class="col-md-6">
                 <h5 class="text-uppercase">Bat<small>H</small>elp</h5>
-                <p>Nous vous accompagnerons dans toutes vos demarches !</p></div>
-            <hr class="clearfix w-100 d-md-none pb-3">
-            <div class="col-md-3 mb-md-0 mb-3">
+                <p>Nous vous accompagnerons dans toutes vos demarches !</p>
+            </div>
+            <div class="col-md-3">
                 <h5 class="text-uppercase">Liens</h5>
                 <ul class="list-unstyled">
                     <li>
@@ -142,8 +141,8 @@ $tab = $request->fetch();
                     </li>
                 </ul>
             </div>
-            <div class="col-md-3 mb-md-0 mb-3">
-                <h5 class="text-uppercase">Contact</h5>
+            <div class="col-md-3">
+                <h5 class="text-uppercase">Contacts</h5>
                 <ul class="list-unstyled">
                     <li>
                         <p>9849849984</p>
@@ -159,12 +158,12 @@ $tab = $request->fetch();
         </div>
     </div>
     <div class="footer-copyright text-center py-3">2018 Copyright : isoNaN@2.19</div>
+</footer>
     <!-- script js -->
     <script src="../js/jquery.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/typed.js"></script>
     <script src="../js/main.js"></script>
-</footer>
 </body>
 </html>
 <?php

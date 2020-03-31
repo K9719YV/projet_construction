@@ -87,15 +87,14 @@
 
 
 <!-- Footer -->
-<footer class="page-footer font-small blue pt-4">
-
-    <div class="container-fluid text-center text-md-left">
+<footer class="footer">
+    <div class="container">
         <div class="row">
-            <div class="col-md-6 mt-md-0 mt-3">
+            <div class="col-md-6">
                 <h5 class="text-uppercase">Bat<small>H</small>elp</h5>
-                <p>Nous vous accompagnerons dans toutes vos demarches !</p></div>
-            <hr class="clearfix w-100 d-md-none pb-3">
-            <div class="col-md-3 mb-md-0 mb-3">
+                <p>Nous vous accompagnerons dans toutes vos demarches !</p>
+            </div>
+            <div class="col-md-3">
                 <h5 class="text-uppercase">Liens</h5>
                 <ul class="list-unstyled">
                     <li>
@@ -109,7 +108,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-md-3 mb-md-0 mb-3">
+            <div class="col-md-3">
                 <h5 class="text-uppercase">Contacts</h5>
                 <ul class="list-unstyled">
                     <li>

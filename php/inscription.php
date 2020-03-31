@@ -49,7 +49,6 @@ function checkInput($var)
     <!-- Animate CSS -->
     <link rel="stylesheet" href="../css/animate.min.css">
     <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="../css/styles.css">
     <title>IsoBat</title>
 </head>
 <body>
@@ -78,96 +77,67 @@ function checkInput($var)
 
 
 <!-- Formulaire inscription -->
-<div class="corps">
-<div class="container">
-    <div class="col-md-6 centre">
-
-        <form action="" method="post" class="formulaire animated rollIn">
-            <?php
-            if(isset($err))
-            {
-                echo $err;
-            }
-            ?>
-
-
-            <div class="input-group mt-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="nom"><i class="fa fa-user"></i></span>
-                </div>
-                <input class="form-control" type="text" name="nom" placeholder="Ecrivez votre nom..."
-                       aria-label="Recipient'snom" aria-describedby="nom">
-            </div>
-            <div class="input-group mt-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="prenom"><i class="fa fa-user-plus"></i></span>
-                </div>
-                <input class="form-control" type="text" name="prenom" placeholder="Ecrivez votre prenom..."
-                       aria-label="Recipient'sprenom" aria-describedby="prenom">
-            </div>
-            <div class="input-group mt-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="tel"><i class="fa fa-phone"></i></span>
-                </div>
-                <input class="form-control" type="text" name="tel" placeholder="Numero de telephone( Important !)..."
-                       aria-label="Recipient'stel" aria-describedby="tel">
-            </div>
-            <div class="input-group mt-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="residence"><i class="fa fa-home"></i></span>
-                </div>
-                <input class="form-control" type="text" name="residence" placeholder="Lieu de residence..."
-                       aria-label="Recipient'sresidence" aria-describedby="residence">
-            </div>
-            <div class="input-group mt-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="email"><i class="fa fa-envelope"></i></span>
-                </div>
-                <input class="form-control" type="email" name="email" placeholder="Ecrivez votre email..."
-                       aria-label="Recipient'semail" aria-describedby="email">
-            </div>
-            <div class="input-group mt-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="nom"><i class="fa fa-unlock-alt"></i></span>
-                </div>
-                <input class="form-control" type="password" name="password" placeholder="Ecrivez votre password..."
-                       aria-label="Recipient'spassword" aria-describedby="password">
-            </div>
-            <button  class="btn btn-success float-center btn-block btn-lg" data-target="#inscrit" data-toggle="modal" id="inscrit">S'inscrire</button>
-
-          <!-- <div class="modal fade" id="inscrit" tabindex="1" role="dialog">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h4 class="modal-title"><span><i class="fa fa-building"></i></span> Bat-Help <span><i class="fa fa-building"></i></span></h4>
-                            <button type="button" class="close" data-dismiss="modal">x</button>
-                        </div>
-                        <div class="modal-body">
-                            <p style="color: darkred">Ce formulaire est a remplir obligatoirement !</p>
-                            <p>Si vous constatez une erreur au niveau de remplissage du formulaire,appuyer sur le boutton "fermer",dans le cas contraire vous pouvez continuer ! </p>
-                        </div>
-                        <div class="modal-footer"><button type="submit" class="btn btn-info">Continuer</button>
-                            <button  class="btn btn-default" data-dismiss="modal">Fermer</button>
-                        </div>
+<div class="box-form">
+    <div class="container">
+        <div class="card-form">
+        <h3 class="text-center">Inscription</h3>
+            <form action="" method="post" class="formulaire animated rollIn">
+                <?php
+                if(isset($err))
+                {
+                    echo $err;
+                }
+                ?>
+                <div class="input-group mt-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="nom"><i class="fa fa-user"></i></span>
                     </div>
+                    <input class="form-control" type="text" name="nom" placeholder="Ecrivez votre nom..." aria-label="Recipient'snom" aria-describedby="nom">
                 </div>
-            </div>-->
-        </form>
+                <div class="input-group mt-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="prenom"><i class="fa fa-user-plus"></i></span>
+                    </div>
+                    <input class="form-control" type="text" name="prenom" placeholder="Ecrivez votre prenom..." aria-label="Recipient'sprenom" aria-describedby="prenom">
+                </div>
+                <div class="input-group mt-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="tel"><i class="fa fa-phone"></i></span>
+                    </div>
+                    <input class="form-control" type="text" name="tel" placeholder="Numero de telephone( Important !)..." aria-label="Recipient'stel" aria-describedby="tel">
+                </div>
+                <div class="input-group mt-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="residence"><i class="fa fa-home"></i></span>
+                    </div>
+                    <input class="form-control" type="text" name="residence" placeholder="Lieu de residence..." aria-label="Recipient'sresidence" aria-describedby="residence">
+                </div>
+                <div class="input-group mt-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="email"><i class="fa fa-envelope"></i></span>
+                    </div>
+                    <input class="form-control" type="email" name="email" placeholder="Ecrivez votre email..." aria-label="Recipient'semail" aria-describedby="email">
+                </div>
+                <div class="input-group mt-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="nom"><i class="fa fa-unlock-alt"></i></span>
+                    </div>
+                    <input class="form-control" type="password" name="password" placeholder="Ecrivez votre password..." aria-label="Recipient'spassword" aria-describedby="password">
+                </div>
+                <button  class="btn btn-success float-center btn-block btn-lg mt-3" data-target="#inscrit" data-toggle="modal" id="inscrit">S'inscrire</button>
+            </form>
+        </div>
     </div>
 </div>
-</div>
-
-
 <!-- Footer -->
-<footer class="page-footer font-small blue pt-4">
-
-    <div class="container-fluid text-center text-md-left">
+<footer class="footer">
+    <div class="container">
         <div class="row">
-            <div class="col-md-6 mt-md-0 mt-3">
+            <div class="col-md-6">
                 <h5 class="text-uppercase">Bat<small>H</small>elp</h5>
-                <p>Nous vous accompagnerons dans toutes vos demarches !</p></div>
-            <hr class="clearfix w-100 d-md-none pb-3">
-            <div class="col-md-3 mb-md-0 mb-3">
+                <p>Nous vous accompagnerons dans toutes vos demarches !</p>
+            </div>
+            <div class="col-md-3">
                 <h5 class="text-uppercase">Liens</h5>
                 <ul class="list-unstyled">
                     <li>
@@ -181,7 +151,7 @@ function checkInput($var)
                     </li>
                 </ul>
             </div>
-            <div class="col-md-3 mb-md-0 mb-3">
+            <div class="col-md-3">
                 <h5 class="text-uppercase">Contacts</h5>
                 <ul class="list-unstyled">
                     <li>
